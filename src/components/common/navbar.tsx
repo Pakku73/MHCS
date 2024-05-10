@@ -5,10 +5,10 @@ export const Navbar = () => {
         <nav className="navbar flex p-4 h-20 justify-between bg-[#f6f6f6] static">
 
           <ul className="navbarLink flex">
-            <li className="navbar-link px-4">Notre entreprise</li>
-            <li className="navbar-link px-4">Nos prestations</li>
-            <li className="navbar-link px-4">Regoignez-nous</li>
-            <li className="navbar-link px-4">Contact</li>
+            <li className="navbar-link px-4"><a href="#">Notre entreprise</a></li>
+            <li className="navbar-link px-4"><a href="#">Nos prestations</a></li>
+            <li className="navbar-link px-4"><a href="#">Regoignez-nous</a></li>
+            <li className="navbar-link px-4"><a href="#">Contact</a></li>
           </ul>
 
           <div className="navbarLogo">
