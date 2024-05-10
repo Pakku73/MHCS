@@ -9,7 +9,7 @@ export default {
       current: 'currentColor',
       'white': '#ffffff',
       'navWhite': '#e5e7eb',
-      'rightCard': '#ffbc75',
+      'rightCard': '#fcc78d',
       'purple': '#3f3cbb',
       'midnight': '#121063',
       'metal': '#565584',
