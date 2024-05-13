@@ -1,12 +1,14 @@
 export const Accompagnement = () => {
     return <>
     
-      <section className="flex flex-col bg-white">
-              <div className="flex flex-col bg-[#e8e8e8]">
-                <h1>
+      <section>
+        <div className="flex flex-col bg-[#fffcf8] p-[10vh] pr-[20vh] pl-[20vh]">
+
+            <div className="flex flex-col bg-[#ffffff] shadow-md p-10 rounded-[6px]">
+                <h2 className="flex flex-col font-ChangeOne text-[500] text-[30px] justify-center items-center text-center w-[600px]">
                     Un accompagnement dédié, pour des travaux en toute
-                    <span>serenite</span>
-                </h1>
+                    <span className="font-Neonderthaw text-[50px]">serenite</span>
+                </h2>
                 <div className="flex">
                     <img src="../../../public/assets/images/support-visual.jpg" alt="" />
 
@@ -29,7 +31,10 @@ export const Accompagnement = () => {
                     </div>
                 </div>
 
-              </div>
+            </div>
+
+        </div>
+
       </section>
   
     </>;
