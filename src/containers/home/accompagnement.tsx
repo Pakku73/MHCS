@@ -1,4 +1,4 @@
-export const accompagnement = () => {
+export const Accompagnement = () => {
     return <>
     
       <section className="flex flex-col bg-white">
@@ -10,7 +10,7 @@ export const accompagnement = () => {
                 <div className="flex">
                     <img src="../../../public/assets/images/support-visual.jpg" alt="" />
 
-                    <div>
+                    <div className="text-[#000000]">
                         <h2>Pourquoi choisir MHCS ?</h2>
                         <p>
                             MHCS trouve son essence dans la volonté de répondre 
