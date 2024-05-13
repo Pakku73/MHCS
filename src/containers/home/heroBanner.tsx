@@ -7,17 +7,17 @@ export const HeroBanner = () => {
 
     <div>
 
-      <div className="flex absolute z-15 h-full w-full">
+      <div className="flex flex-col mt-80 absolute z-15 h-full w-full">
 
-        <h1 className="flex flex-col justify-center items-center ml-50 z-10 text-[500] gap-4 text-6xl text-center">
+        <h1 className="flex flex-col mb-10 justify-center items-center ml-50 z-10 text-[500] gap-4 text-6xl text-center">
             <span className="font-ChangeOne uppercase text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)]">Votre service de</span>
             <span className="font-Neonderthaw text-[68px] text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)]">maintenance hôtelière</span>
             <span className="font-ChangeOne uppercase text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)]">Sur-mesure, 24H/24.</span>
         </h1>
 
-        <div>
-        <button className="bg-white color-[#000000]">Prendre rendez-vous</button>
-        <button>Découvrir les prestations</button>
+        <div className="flex z-10 justify-center items-center gap-10">
+          <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] hover:bg-[#000000] hover:text-[#f2ead5]">Prendre rendez-vous</button>
+          <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796]">Découvrir les prestations</button>
         </div>
 
       </div>

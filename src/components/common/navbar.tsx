@@ -19,7 +19,7 @@ export const Navbar = () => {
             <img src={Logo} alt="logo" className="h-14 w-30" />
           </div>
 
-          <div className="flex p-2 align-center bg-[#ffd7ab] w-40 rounded-[6px] text-xs shadow-[0_4px_4px_-4px_rgba(0,0,0,0.4)]">
+          <div className="flex p-2 align-center bg-[#f2ead5] w-40 rounded-[6px] text-xs shadow-[0_4px_4px_-4px_rgba(0,0,0,0.4)]">
             <img
               className="w-6 mr-4"
               src="../../../public/assets/icons/mail.svg"
