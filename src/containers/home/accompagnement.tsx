@@ -10,7 +10,7 @@ export const Accompagnement = () => {
                     <span className="font-Neonderthaw text-[50px]">serenite</span>
                 </h2>
                 <div className="flex">
-                    <img src="../../../public/assets/images/support-visual.jpg" alt="" />
+                    <img className="rounded-[6px]" src="../../../public/assets/images/support-visual.jpg" alt="" />
 
                     <div className="text-[#000000] p-20">
                         <h2 className="font-ChangeOne text-[20px]">Pourquoi choisir MHCS ?</h2>
