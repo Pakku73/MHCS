@@ -12,16 +12,18 @@ export const Chiffres = () => {
                 <h2 className="uppercase font-ChangeOne text-[20px]">D'expertises</h2>
             </div>
 
-            <div className="border-[2px] border-[#ada796] p-1 pl-10 rounded-[4px] mr-[5vw] ml-[10vw]">
-                <h2 className="uppercase font-ChangeOne text-[20px]">D'expertises</h2>
+            <div className="border-[2px] border-[#ada796] p-1 pl-10 rounded-[4px] mr-[5vw] ml-[10vw] text-end">
+                <h2 className="uppercase font-ChangeOne text-[20px]">CHANTIERS RÉALISÉS</h2>
+                <p className="uppercase font-ChangeOne text-[18px]">EN 2023</p>
             </div>
 
-            <div className="border-[2px] border-[#ada796] p-1 pl-10 rounded-[4px] mr-[10vw] ml-[5vw]">
-                <h2 className="uppercase font-ChangeOne text-[20px]">D'expertises</h2>
+            <div className="border-[2px] border-[#ada796] p-1 pl-10 rounded-[4px] mr-[10vw] ml-[5vw] text-end">
+                <h2 className="uppercase font-ChangeOne text-[20px]">CLIENTS</h2>
+                <p className="uppercase font-ChangeOne text-[18px]">EN 2023</p>
             </div>
 
             <div className="border-[2px] border-[#ada796] p-1 pl-10 rounded-[4px]">
-                <h2 className="uppercase font-ChangeOne text-[20px]">D'expertises</h2>
+                <h2 className="uppercase font-ChangeOne text-[20px]">PARTENAIRES</h2>
             </div>
 
         </div>
