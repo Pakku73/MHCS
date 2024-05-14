@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         'ChangeOne': ['"Changa One"'],
         'Neonderthaw': ['"Neonderthaw"'],
+        'Arial': ['"Arial"'],
       },
     },
 

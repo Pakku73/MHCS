@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Arial';
+    src: url('/public/assets/fonts/arial/ARIAL.TTF');
+}
+
 body{
     background-color: #fffcf8;
 }
