@@ -15,9 +15,9 @@ export const HeroBanner = () => {
             <span className="font-ChangeOne uppercase text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)]">Sur-mesure, 24H/24.</span>
         </h1>
 
-        <div className="flex z-10 justify-center items-center gap-10">
-          <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] hover:bg-[#000000] hover:text-[#f2ead5]">Prendre rendez-vous</button>
-          <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796]">Découvrir les prestations</button>
+        <div className="flex z-10 justify-center items-center gap-10 font-ChangeOne">
+          <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] hover:bg-[#000000] hover:text-[#f2ead5] hover:transition-transform-0.2 hover:-translate-y-1">Prendre rendez-vous</button>
+          <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796] hover:transition-transform-0.2 hover:-translate-y-1">Découvrir les prestations</button>
         </div>
 
       </div>
