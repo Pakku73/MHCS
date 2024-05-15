@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Arial';
-    src: url('/public/assets/fonts/arial/ARIAL.TTF');
+body {
+  background-color: #fffcf8;
 }
 
-body{
-    background-color: #fffcf8;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'ChangaOne';
+}
+
+*:not(h1, h2, h3, h4, h5) {
+  font-family: Arial, Helvetica, sans-serif;
 }
