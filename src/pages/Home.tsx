@@ -5,6 +5,7 @@ import { Urgences } from '../containers/home/urgences.tsx';
 import { Chiffres } from '../containers/home/chiffres.tsx';
 import { Realisation } from '../containers/home/realisation.tsx';
 import { Etapes } from '../containers/home/etapes.tsx';
+import { Confiance } from '../containers/home/confiance.tsx';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Chiffres />
       <Realisation />
       <Etapes />
+      <Confiance />
     </>
   );
 }
