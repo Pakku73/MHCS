@@ -26,7 +26,7 @@ export const Navbar = () => {
               alt=""
             />
             <div className="flex-col">
-              <h2>Contactez-nous</h2>
+              <h2><b>Contactez-nous</b></h2>
               <p>07.72.50.38.81</p>
             </div>
           </div>
