@@ -5,7 +5,7 @@ import { HEADER_LINK } from '../../data/header';
 export const Navbar = () => {
   return (
     <>
-      <nav className="p-5 fixed z-50 w-full bg-[#ffffff]">
+      <nav className="p-5 fixed z-50 w-full bg-[#ffffff] border-b-2 border-[#e4e4e4]">
         <div className="relative flex items-center justify-between">
           <ul className="flex items-center gap-4">
             {HEADER_LINK.map((link, index) => (
@@ -26,7 +26,7 @@ export const Navbar = () => {
               alt=""
             />
             <div className="flex-col">
-              <h2>Contactez-nous</h2>
+              <h2><b>Contactez-nous</b></h2>
               <p>07.72.50.38.81</p>
             </div>
           </div>
