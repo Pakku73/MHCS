@@ -3,7 +3,7 @@
 export const HeroBanner = () => {
   return <>
   
-    <section className="flex flex-col bg-no-repeat">
+    <section className="flex flex-col">
 
     <div>
 
@@ -16,8 +16,8 @@ export const HeroBanner = () => {
         </h1>
 
         <div className="flex z-10 justify-center items-center gap-10 font-ChangeOne">
-          <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] hover:bg-[#000000] hover:text-[#f2ead5] hover:transition-transform-0.2 hover:-translate-y-1">Prendre rendez-vous</button>
-          <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796] hover:transition-transform-0.2 hover:-translate-y-1">Découvrir les prestations</button>
+          <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] hover:bg-[#000000] hover:text-[#f2ead5] hover:transition-transform-0.8 hover:-translate-y-2">Prendre rendez-vous</button>
+          <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796] hover:transition-transform-0.2 hover:-translate-y-2">Découvrir les prestations</button>
         </div>
 
       </div>

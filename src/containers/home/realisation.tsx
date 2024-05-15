@@ -13,10 +13,10 @@ export const Realisation = () => {
                 <div className="flex justify-center items-center align-center border-[2px] border-[#ada796] p-2 max-h-10 rounded-[30px]">
                     <img className="" src="../../../public/assets/icons/left-chevron.svg" alt="" />
                 </div>
-                <img className="rounded-[6px] max-w-[330] m-4" src="../../../public/assets/images/realization1.jpg" alt="" />
-                <img className="rounded-[6px] max-w-[330] m-4" src="../../../public/assets/images/realization2.jpg" alt="" />
-                <img className="rounded-[6px] max-w-[330] m-4" src="../../../public/assets/images/realization3.jpg" alt="" />
-                <img className="rounded-[6px] max-w-[330] m-4" src="../../../public/assets/images/realization4.jpg" alt="" />
+                <img className="rounded-[6px] max-w-[330px] m-4" src="../../../public/assets/images/realization1.jpg" alt="" />
+                <img className="rounded-[6px] max-w-[330px] m-4" src="../../../public/assets/images/realization2.jpg" alt="" />
+                <img className="rounded-[6px] max-w-[330px] m-4" src="../../../public/assets/images/realization3.jpg" alt="" />
+                <img className="rounded-[6px] max-w-[330px] m-4" src="../../../public/assets/images/realization4.jpg" alt="" />
                 <div className="flex justify-center items-center align-center border-[2px] border-[#ada796] p-2 max-h-10 rounded-[30px]">
                     <img className="" src="../../../public/assets/icons/right-chevron.svg" alt="" />
                 </div>
