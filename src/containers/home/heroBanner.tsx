@@ -16,8 +16,10 @@ export const HeroBanner = () => {
         </h1>
 
         <div className="flex z-10 justify-center items-center gap-10 font-ChangeOne">
-          <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] hover:bg-[#000000] hover:text-[#f2ead5] hover:transition-transform-0.8 hover:-translate-y-2">Prendre rendez-vous</button>
-          <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796] hover:transition-transform-0.2 hover:-translate-y-2">Découvrir les prestations</button>
+          <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] hover:bg-[#000000] hover:text-[#f2ead5] transition ease-in-out duration-300  hover:-translate-y-2 shadow-md">Prendre rendez-vous</button>
+          <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796] transition ease-in-out duration-300  hover:-translate-y-2 shadow-md">Découvrir les prestations</button>
+          {/* <Button text="Prendre rendez-vous" variant="cream" />
+          <Button text="Découvrir" variant="olive" /> */}
         </div>
 
       </div>

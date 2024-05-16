@@ -9,7 +9,7 @@ export const Realisation = () => {
                 Quelques unes de nos
                 <span className="font-Neonderthaw text-[50px]">réalisations</span>
             </h2>
-            <div className="flex">
+            <div className="flex items-center">
                 <div className="flex justify-center items-center align-center border-[2px] border-[#ada796] p-2 max-h-10 rounded-[30px]">
                     <img className="" src="../../../public/assets/icons/left-chevron.svg" alt="" />
                 </div>

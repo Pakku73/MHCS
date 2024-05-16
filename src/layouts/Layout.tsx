@@ -1,13 +1,15 @@
 import { Navbar } from '../components/common/navbar';
+import { Footer } from '../components/common/footer'
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Navbar />
 
-      <main className="h-[300vh]">{children}</main>
+      <main>{children}</main>
+      {/* className="h-[300vh]" */}
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

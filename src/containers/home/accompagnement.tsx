@@ -9,7 +9,7 @@ export const Accompagnement = () => {
                 Un accompagnement dédié, pour des travaux en toute
                 <span className="font-Neonderthaw text-[50px]">serenite</span>
             </h2>
-            <div className="flex">
+            <div className="flex gap-36">
                 <img className="rounded-[6px]" src="../../../public/assets/images/support-visual.jpg" alt="" />
 
                 <div className="flex flex-col text-[#000000] justify-center">
