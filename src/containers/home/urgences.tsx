@@ -16,7 +16,7 @@ export const Urgences = () => {
         </div>
 
         <div className="m-auto">
-            <button className="bg-[#f2ead5] text-black p-4 rounded-[2px] hover:-translate-y-2 hover:transition-transform-0.5">Prendre rendez-vous</button>
+            <button className="bg-[#f2ead5] text-black p-4 rounded-[2px] transition ease-in-out hover:-translate-y-2">Prendre rendez-vous</button>
         </div>
       </section>
   
