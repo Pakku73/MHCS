@@ -10,3 +10,14 @@
 body{
     background-color: #fffcf8;
 }
+
+input{
+    border: solid grey 1px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+input:focus{
+    outline: solid 2px rgb(192, 192, 255);
+    border: none;
+}

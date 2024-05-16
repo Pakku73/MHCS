@@ -1,7 +1,7 @@
 export const Etapes = () => {
     return <>
     
-      <section className="flex flex-col items-center max-w-screen-2xl m-auto mt-[100px] gap-14">
+      <section className="flex flex-col items-center max-w-screen-2xl m-auto gap-14">
 
         <h2 className="flex flex-col font-Arial text-center text-[25px]">
             Les étapes à suivre
@@ -66,7 +66,7 @@ export const Etapes = () => {
             </div>
         </div>
 
-        <button className="bg-[#000000] font-ChangeOne text-[#f2ead5] p-2 rounded-[2px] hover:bg-[#f2ead5] hover:text-[#000000] hover:transition-transform-1 hover:-translate-y-2">Prendre rendez-vous</button>
+        <button className="bg-[#000000] font-ChangeOne text-[#f2ead5] p-2 rounded-[2px] hover:bg-[#f2ead5] transition ease-in-out duration-300 hover:text-[#000000] hover:-translate-y-2">Prendre rendez-vous</button>
 
       </section>
   

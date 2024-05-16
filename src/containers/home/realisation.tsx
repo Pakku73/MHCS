@@ -1,7 +1,7 @@
 export const Realisation = () => {
     return <>
     
-      <section className="flex flex-col bg-[#fffcf8] max-w-screen-2xl m-auto mt-[100px]">
+      <section className="flex flex-col bg-[#fffcf8] max-w-screen-2xl m-auto my-[100px]">
       {/* p-[10vh] pr-[20vh] pl-[20vh] */}
 
         <div className="flex flex-col bg-[#ffffff] shadow-md p-10 pr-[10vh] pl-[10vh] rounded-[6px]">
