@@ -35,7 +35,7 @@ export const Collaborateurs = () => {
 
       </div>
 
-        <div className="max-w-[1200px] text-center">
+        <div className="max-w-[1200px] text-center mb-10">
             <p><i>Nous vous informons que les informations demandées seront exclusivement gardées dans notre base de donnée pour la conception de vos devis et factures. Elles ne seront en aucun cas transmises à des organismes à des fins publicitaires.</i></p>
         </div>
 
