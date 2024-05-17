@@ -9,4 +9,8 @@ export const HEADER_LINK: HeaderLinkInterface[] = [
     href: '/contact',
     label: 'Contact',
   },
+  {
+    href: '/rejoindre',
+    label: 'Rejoignez-nous',
+  },
 ];
