@@ -39,7 +39,7 @@ export const Collaborateurs = () => {
             <p><i>Nous vous informons que les informations demandées seront exclusivement gardées dans notre base de donnée pour la conception de vos devis et factures. Elles ne seront en aucun cas transmises à des organismes à des fins publicitaires.</i></p>
         </div>
 
-        <div className="flex flex-col bg-[#f2ead5] shadow-md rounded-[6px] p-10 px-[500px] mt-10 gap-5">
+        <div className="flex flex-col bg-[#f2ead5] shadow-md rounded-[6px] p-10 px-[500px] mt-10 gap-5 mb-10">
             <h2 className="uppercase font-ChangeOne text-[36px]">Postuler autrement :</h2>
             <div className="flex gap-5">
             <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-white hover:text-[#ada796] transition ease-in-out duration-300  hover:-translate-y-2 shadow-md"><b>07.72.50.38.81</b></button>
