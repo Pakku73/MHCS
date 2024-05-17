@@ -2,7 +2,7 @@ export const Collaborateurs = () => {
     return <>
     
     <section className="flex flex-col items-center justify-center">
-        <h2 className="font font-ChangeOne text-[#ada796] text-[30px]">MHCS est à la recherche de ses collaborateurs <span className="font-Neonderthaw">de demain !</span></h2>
+        <h2 className="font font-ChangeOne text-[#ada796] text-[30px] mt-10">MHCS est à la recherche de ses collaborateurs <span className="font-Neonderthaw">de demain !</span></h2>
         <div className="flex flex-col bg-[#fffcf8] max-w-screen-2xl m-auto my-[100px]">
 
         <div className="flex flex-col bg-[#ffffff] shadow-md p-10 px-[290px] rounded-[6px]">
