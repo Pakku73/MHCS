@@ -8,8 +8,8 @@ export const Chiffres = () => {
         </h2>
 
         <div className="flex justify-between items-center">
-            <div className="border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px]">
-                <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[20px] -translate-y-9 translate-x-[60px]">+20 ANS</p>
+            <div className="border-[2px] relative border-[#ada796] p-2 pl-10 rounded-[4px]">
+                <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[20px] absolute -right-1 -top-5">+20 ANS</p>
                 <h2 className="uppercase font-ChangeOne text-[20px]">D'expertises</h2>
             </div>
 

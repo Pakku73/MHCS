@@ -13,4 +13,8 @@ export const HEADER_LINK: HeaderLinkInterface[] = [
     href: '/rejoindre',
     label: 'Rejoignez-nous',
   },
+  {
+    href: '/notre-entreprise',
+    label: 'Notre entreprise',
+  },
 ];
