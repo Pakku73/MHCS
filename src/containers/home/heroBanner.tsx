@@ -2,7 +2,7 @@
 
 export const HeroBanner = () => {
   return (
-    <section className="h-svh mt-[90px]">
+    <section className="h-svh">
       <div className="relative h-full flex justify-center items-center">
         <div className="flex flex-col justify-center items-center z-15 h-full w-full">
           <h1 className="flex flex-col mb-10 justify-center items-center ml-50 z-10 gap-4 text-6xl text-center">
