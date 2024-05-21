@@ -3,6 +3,7 @@ import Home from '../pages/Home';
 import Contact from '../pages/Contact';
 import Rejoindre from '../pages/Rejoindre';
 import Entreprise from '../pages/Entreprise';
+import Prestations from '../pages/Prestations';
 
 export const Router = () => {
   return (
@@ -11,6 +12,7 @@ export const Router = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/rejoindre" element={<Rejoindre />} />
       <Route path="/notre-entreprise" element={<Entreprise />} />
+      <Route path="/Nos-prestations" element={<Prestations />} />
     </Routes>
   );
 };

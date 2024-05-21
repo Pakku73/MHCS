@@ -17,4 +17,8 @@ export const HEADER_LINK: HeaderLinkInterface[] = [
     href: '/notre-entreprise',
     label: 'Notre entreprise',
   },
+  {
+    href: '/nos-prestations',
+    label: 'Nos prestations',
+  },
 ];
