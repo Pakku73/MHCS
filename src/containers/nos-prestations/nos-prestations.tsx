@@ -1,10 +1,10 @@
-import { Section } from "../../components/common/Section";
+import { Section } from '../../components/common/Section';
 
 export const Prestations = () => {
   return (
     <>
-      <Section>
-      <div className="flex flex-col relative items-center justify-center top-10 h-[80vh] bg-[url('../../../public/assets/images/realization4.jpg')] bg-no-repeat bg-cover bg-center rounded-[6px]">
+      <Section variant="9/10">
+        <div className="flex flex-col relative items-center justify-center top-10 h-[80vh] bg-[url('../../../public/assets/images/realization4.jpg')] bg-no-repeat bg-cover bg-center rounded-[6px]">
           <h1 className="flex flex-col mb-10 ml-50 z-10 gap-4 text-6xl text-center -translate-x-6">
             <span className="font-ChangeOne uppercase text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)]">
               DÉCOUVREZ NOTRE

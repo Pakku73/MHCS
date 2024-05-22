@@ -1,4 +1,4 @@
-import { Section } from "../../components/common/Section";
+import { Section } from '../../components/common/Section';
 
 export const Dynamique = () => {
   return (
