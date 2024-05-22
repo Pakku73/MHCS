@@ -16,7 +16,7 @@ export const Chiffres = () => {
             </h2>
           </div>
 
-          <div className="border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px] mr-[50px] ml-[100px] text-end">
+          <div className=" relative border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px] mr-[50px] ml-[100px] text-end">
             <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[30px]  absolute -right-1 -top-5">
               +188
             </p>
