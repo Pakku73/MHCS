@@ -35,8 +35,8 @@ export const Surmeusure = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 -translate-y-48">
-            <div className="flex justify-center items-center bg-[#f2ead5] border-black border-[1px] rounded-[6px] p-10 gap-6">
+          <div className="flex flex-col gap-4 -translate-y-40">
+            <div className="flex justify-center items-center bg-[#f2ead5] border-black border-[1px] rounded-[6px] p-8 gap-6">
               <img
                 className="max-w-28 max-h-28 border-black border-[1px] rounded-[6px]"
                 src="../../../public/assets/images/realization3-xl.jpg"
@@ -53,7 +53,7 @@ export const Surmeusure = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-10 gap-6">
+            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-8 gap-6">
               <img
                 className="max-w-28 max-h-28 border-black border-[1px] rounded-[6px]"
                 src="../../../public/assets/images/realization1.jpg"
@@ -72,7 +72,7 @@ export const Surmeusure = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-10 gap-6">
+            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-8 gap-6">
               <img
                 className="max-w-28 max-h-28 border-black border-[1px] rounded-[6px]"
                 src="../../../public/assets/images/realization3-xl.jpg"

@@ -5,8 +5,8 @@ export const Dynamique = () => {
     <>
       <Section>
         <div className="flex gap-6">
-          <div className="flex flex-col gap-4 -translate-y-48">
-            <div className="flex justify-center items-center bg-[#f2ead5] border-black border-[1px] rounded-[6px] p-10 gap-6">
+          <div className="flex flex-col gap-4 max-w-3xl">
+            <div className="flex justify-center items-center bg-[#f2ead5] border-black border-[1px] rounded-[6px] p-8 gap-6">
               <img
                 className="max-w-28 max-h-28 border-black border-[1px] rounded-[6px]"
                 src="../../../public/assets/images/realization3-xl.jpg"
@@ -23,7 +23,7 @@ export const Dynamique = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-10 gap-6">
+            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-8 gap-6">
               <img
                 className="max-w-28 max-h-28 border-black border-[1px] rounded-[6px]"
                 src="../../../public/assets/images/realization1.jpg"
@@ -42,7 +42,7 @@ export const Dynamique = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-10 gap-6">
+            <div className="flex justify-center items-center bg-white border-black border-[1px] rounded-[6px] p-8 gap-6">
               <img
                 className="max-w-28 max-h-28 border-black border-[1px] rounded-[6px]"
                 src="../../../public/assets/images/realization3-xl.jpg"
@@ -59,6 +59,40 @@ export const Dynamique = () => {
                   réalisation des travaux.
                 </p>
               </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-6 max-w-3xl">
+            <div className="flex justify-center items-center gap-6">
+              <div className="w-[2px] h-[160px] bg-black"></div>
+              <div className="flex flex-col gap-2">
+                <h2 className="font-ChangeOne text-3xl">
+                  Accompagnement complet
+                </h2>
+                <p>
+                  Tout est parti d’une idée qui créa l’acronyme MHCS. C’est avec
+                  un grand enthousiasme que nous souhaitons vous présenter nos
+                  valeurs : Maintenance, service et logistique constituent notre
+                  corps de métier depuis de nombreuses années. Nous les avons
+                  exploités et adaptés aux codes de l’Hôtellerie de luxe, et
+                  savons donc à quel point la qualité des prestations est
+                  primordiale. C’est pourquoi, la création de la société MHCS a
+                  pour but de répondre aux besoins et exigences du monde
+                  hôtelier.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <img
+                className="max-w-44 border-black border-[1px] rounded-[10px]"
+                src="../../../public/assets/images/realization4.jpg"
+                alt=""
+              />
+              <img
+                className="max-w-44 border-black border-[1px] rounded-[10px]"
+                src="../../../public/assets/images/realization3.jpg"
+                alt=""
+              />
             </div>
           </div>
         </div>
