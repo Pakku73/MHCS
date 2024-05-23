@@ -1,4 +1,4 @@
-import { Section } from '../../components/common/Section';
+import { Section } from "../../components/common/Section";
 
 export const Dynamique = () => {
   return (
@@ -12,7 +12,12 @@ export const Dynamique = () => {
                 src="../../../public/assets/images/realization3-xl.jpg"
                 alt=""
               />
-              <div className="flex flex-col">
+              <div className="flex flex-col relative">
+                <div className="absolute right-2 -top-16">
+                  <p className="uppercase font-ChangeOne text-white bg-black -rotate-2 px-2">
+                    LE PACK COMPLET
+                  </p>
+                </div>
                 <h2 className="font-ChangeOne text-[#ada796] text-2xl">
                   Accompagnement complet
                 </h2>
