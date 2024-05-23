@@ -17,7 +17,7 @@ export const Chiffres = () => {
           </div>
 
           <div className=" relative border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px] mr-[50px] ml-[100px] text-end">
-            <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[30px]  absolute -right-1 -top-5">
+            <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[30px]  absolute -right-1 -top-8">
               +188
             </p>
             <h2 className="uppercase font-ChangeOne text-[20px]">
@@ -26,16 +26,16 @@ export const Chiffres = () => {
             <p className="uppercase font-ChangeOne text-[18px]">EN 2023</p>
           </div>
 
-          <div className="border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px] mr-[100px] ml-[50px] text-end">
-            <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[30px] absolute -right-1 -top-5">
+          <div className="relative border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px] mr-[100px] ml-[50px] text-end">
+            <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[30px] absolute -right-1 -top-8">
               +37
             </p>
             <h2 className="uppercase font-ChangeOne text-[20px]">CLIENTS</h2>
             <p className="uppercase font-ChangeOne text-[15px]">EN 2023</p>
           </div>
 
-          <div className="border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px]">
-            <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[30px] absolute -right-1 -top-5">
+          <div className="relative border-[2px] border-[#ada796] p-2 pl-10 rounded-[4px]">
+            <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[30px] absolute -right-1 -top-8">
               +15
             </p>
             <h2 className="uppercase font-ChangeOne text-[20px]">

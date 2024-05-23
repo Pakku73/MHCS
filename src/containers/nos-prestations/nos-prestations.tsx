@@ -19,10 +19,9 @@ export const Prestations = () => {
                 Prendre rendez-vous
               </button>
             </div>
+            <div className="absolute z-0 top-0 left-0 w-full bg-gradient-to-b from-[#ffffff99] to-[#00000073] h-full rounded-[6px]"></div>
         </div>
 
-          <div className="absolute z-0 top-0 left-0 w-full bg-gradient-to-b from-[#ffffff99] to-[#00000073] h-full rounded-[6px]"></div>
-        </div>
       </Section>
     </>
   );
