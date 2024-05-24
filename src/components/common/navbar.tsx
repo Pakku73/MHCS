@@ -8,7 +8,11 @@ export const Navbar = () => {
       <div className="relative flex items-center justify-between">
         <ul className="flex items-center gap-4">
           {HEADER_LINK.map((link, index) => (
-            <Link key={index} to={link.href}>
+            <Link
+              key={index}
+              to={link.href}
+              className="before:w-0 hover:text-[#ada796] before:absolute hover:before:w-full before:h-[2px] before:bg-[#ada796] before:-bottom-1 before:left-0 before:origin-left before:transition-all before:duration-300 before:ease-in-out  transition-colors duration-300 ease-in-out relative"
+            >
               {link.label}
             </Link>
           ))}

@@ -19,6 +19,7 @@ export const Dynamique = () => {
               key={index}
               prestation={prestation}
               setSelectedPrestation={setSelectedPrestation}
+              selectedPrestation={selectedPrestation}
             />
           ))}
         </div>
@@ -30,7 +31,7 @@ export const Dynamique = () => {
               <h2 className="font-ChangeOne text-3xl">
                 {selectedPrestation.title}
               </h2>
-              <p>{selectedPrestation.description}</p>
+              <p>{selectedPrestation.subDescription}</p>
             </div>
           </div>
           <div className="flex gap-4">

@@ -1,17 +1,30 @@
 import { DynamicPrestationType } from '../../data/dynamique';
+import clsx from 'clsx';
 
 export const PrestationItem = ({
   prestation,
   setSelectedPrestation,
+  selectedPrestation,
 }: {
   prestation: DynamicPrestationType;
   setSelectedPrestation: (prestation: DynamicPrestationType) => void;
+  selectedPrestation: DynamicPrestationType;
 }) => {
+  const classes = clsx(
+    {
+      'bg-[#f2ead5]': selectedPrestation === prestation,
+      'bg-white hover:-translate-y-1 hover:bg-[#f2ead5]/20 ':
+        selectedPrestation !== prestation,
+    },
+    'flex justify-center items-center relative hover:shadow-md transition ease-in-out duration-300 cursor-pointer border-black border-[1px] rounded-[6px] p-8 gap-6'
+  );
   return (
-    <div
-      onClick={() => setSelectedPrestation(prestation)}
-      className={`flex justify-center items-center cursor-pointer border-black border-[1px] rounded-[6px] p-8 gap-6 bg-[#f2ead5]`}
-    >
+    <div onClick={() => setSelectedPrestation(prestation)} className={classes}>
+      {prestation.isPackComplet && (
+        <div className="absolute right-0 -top-4 px-2 py-1 bg-black uppercase text-sm">
+          <p className="text-white">Le pack complet</p>
+        </div>
+      )}
       <img
         className="max-w-28 max-h-28 border-black border-[1px] rounded-[6px]"
         src={prestation.image.path}
