@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Arial';
-    src: url('/public/assets/fonts/arial/ARIAL.TTF');
+  font-family: 'Arial';
+  src: url('/public/assets/fonts/arial/ARIAL.TTF');
 }
 
-body{
-    background-color: #fffcf8;
+body {
+  background-color: #fffcf8;
 }
 
-input{
-    border: solid grey 1px;
-    padding: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
-    border-radius: 6px;
+input {
+  border: solid grey 1px;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 6px;
 }
 
-input:focus{
-    outline: solid 2px rgb(192, 192, 255);
-    border: none;
+input:focus {
+  outline: solid 2px rgb(192, 192, 255);
+  border: none;
 }

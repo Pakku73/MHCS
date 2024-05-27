@@ -1,6 +1,8 @@
+import { HiddenWrapper } from '../../components/common/[DEVONLY]/hiddenWrapper';
+
 export const Chiffres = () => {
   return (
-    <>
+    <HiddenWrapper>
       <section className="flex flex-col items-center max-w-screen-2xl m-auto mt-[100px] gap-10">
         <h2 className="flex flex-col font-Arial text-center text-[20px]">
           Quelques chiffres clés
@@ -44,6 +46,6 @@ export const Chiffres = () => {
           </div>
         </div>
       </section>
-    </>
+    </HiddenWrapper>
   );
 };
