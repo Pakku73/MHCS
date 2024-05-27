@@ -23,3 +23,15 @@ input:focus{
     outline: solid 2px rgb(192, 192, 255);
     border: none;
 }
+
+@media (min-width: 600px) {
+    .container {
+      width: 80%;
+    }
+}
+  
+@media (min-width: 900px) {
+.container {
+    width: 60%;
+    }
+}
