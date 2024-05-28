@@ -3,22 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Arial';
-    src: url('/public/assets/fonts/arial/ARIAL.TTF');
+  font-family: 'Arial';
+  src: url('/public/assets/fonts/arial/ARIAL.TTF');
 }
 
-body{
-    background-color: #fffcf8;
+body {
+  background-color: #fffcf8;
 }
 
-input{
-    border: solid grey 1px;
-    padding: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
-    border-radius: 6px;
+input {
+  border: solid grey 1px;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 6px;
 }
 
+<<<<<<< HEAD
 input:focus{
     outline: solid 2px rgb(192, 192, 255);
     border: none;
@@ -35,3 +36,9 @@ input:focus{
     width: 60%;
     }
 }
+=======
+input:focus {
+  outline: solid 2px rgb(192, 192, 255);
+  border: none;
+}
+>>>>>>> 2e8c777f3bbd255133ade877809da8271c80e923
