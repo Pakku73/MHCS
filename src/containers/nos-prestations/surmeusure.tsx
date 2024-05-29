@@ -4,7 +4,7 @@ export const Surmeusure = () => {
   return (
     <>
       <Section>
-        <div className="flex flex-col gap-10 xl:flex-row xl:gap-6">
+        <div className="flex flex-col-reverse gap-10 xl:flex-row xl:gap-6">
           <div className="flex flex-col max-w-[900px] gap-6">
             <h2 className="font-ChangeOne text-4xl">
               Des prestations sur-mesure
