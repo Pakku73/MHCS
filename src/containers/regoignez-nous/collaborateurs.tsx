@@ -1,13 +1,13 @@
 export const Collaborateurs = () => {
     return <>
     
-    <section className="flex flex-col items-center justify-center">
+    <section className="flex flex-col items-center justify-center text-center">
         <h2 className="font font-ChangeOne text-[#ada796] text-[30px] mt-10">MHCS est à la recherche de ses collaborateurs <span className="font-Neonderthaw">de demain !</span></h2>
         <div className="flex flex-col bg-[#fffcf8] max-w-screen-2xl m-auto my-[100px]">
 
         <div className="flex flex-col bg-[#ffffff] shadow-md p-10 px-[290px] rounded-[6px]">
             <div>
-                <form className="flex gap-4" action="">
+                <form className="flex flex-col gap-4 xl:flex-row" action="">
                     <div className="flex flex-col gap-4 px-[10px]">
                     <label htmlFor="" className="text-[20px]"><b>Nom, prénom</b> *</label>
                     <input type="text" placeholder="Pierre LEDUC"/>
@@ -39,9 +39,9 @@ export const Collaborateurs = () => {
             <p><i>Nous vous informons que les informations demandées seront exclusivement gardées dans notre base de donnée pour la conception de vos devis et factures. Elles ne seront en aucun cas transmises à des organismes à des fins publicitaires.</i></p>
         </div>
 
-        <div className="flex flex-col bg-[#f2ead5] shadow-md rounded-[6px] p-10 px-[500px] mt-10 gap-5 mb-10">
-            <h2 className="uppercase font-ChangeOne text-[36px]">Postuler autrement :</h2>
-            <div className="flex gap-5">
+        <div className="flex flex-col justify-center items-center bg-[#f2ead5] shadow-md rounded-[6px] p-10 px-[500px] mt-10 gap-5 mb-10">
+            <h2 className="uppercase font-ChangeOne text-sm xl:text-[36px]">Postuler autrement :</h2>
+            <div className="flex flex-col gap-5 xl:flex-row">
             <button className="bg-[#ada796] text-white p-2 rounded-[2px] hover:bg-white hover:text-[#ada796] transition ease-in-out duration-300  hover:-translate-y-2 shadow-md"><b>07.72.50.38.81</b></button>
             <button className="bg-[#ffffff] text-[#ada796] p-2 rounded-[2px] hover:bg-[#ada796] hover:text-white transition ease-in-out duration-300  hover:-translate-y-2 shadow-md"><b>secretariat@mhcsparis.com</b></button>
             </div>

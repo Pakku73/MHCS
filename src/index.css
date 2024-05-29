@@ -19,7 +19,7 @@ input {
   border-radius: 6px;
 }
 
-<<<<<<< HEAD
+
 input:focus{
     outline: solid 2px rgb(192, 192, 255);
     border: none;
@@ -36,9 +36,8 @@ input:focus{
     width: 60%;
     }
 }
-=======
+
 input:focus {
   outline: solid 2px rgb(192, 192, 255);
   border: none;
 }
->>>>>>> 2e8c777f3bbd255133ade877809da8271c80e923

@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav className="p-5 fixed top-0 z-50 w-full bg-[#ffffff] border-b-2 border-[#e4e4e4]">
       <div className="relative flex items-center justify-between">
-        <ul className="flex items-center gap-4">
+        <ul className="flex flex-col items-center gap-4 mb:font-xs xl:flex-row">
           {HEADER_LINK.map((link, index) => (
             <Link
               key={index}

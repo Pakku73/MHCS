@@ -3,7 +3,7 @@ import { Section } from '../../components/common/Section';
 export const Etapes = () => {
   return (
     <Section>
-      <div className="flex flex-col items-center gap-14 ">
+      <div className="flex flex-col items-center gap-14">
         <h2 className="flex flex-col font-Arial text-center text-[25px]">
           Les étapes à suivre
           <span className="font-ChangeOne uppercase text-[#ada796] text-[30px]">
@@ -11,7 +11,7 @@ export const Etapes = () => {
           </span>
         </h2>
 
-        <div className="flex items-center max-w-screen-2xl">
+        <div className="flex flex-col gap-14 items-center max-w-screen-2xl xl:flex-row">
           <div className="flex flex-col bg-[#dedad2] max-w-[330px] rounded-[6px] items-center p-4 shadow-md">
             <h2 className="font-ChangeOne text-center z-10 bg-[#ada796] text-white p-2 rounded-[6px] -translate-y-10 -translate-x-[100px] -rotate-2 shadow-md">
               Je prends contact
@@ -28,7 +28,7 @@ export const Etapes = () => {
           </div>
 
           <img
-            className="mx-[30px] opacity-20 max-w-[10px]"
+            className="mx-[30px] opacity-20 max-w-[10px] rotate-90 xl:rotate-0"
             src="../../../public/assets/icons/right-chevron.svg"
             alt=""
           />
@@ -49,7 +49,7 @@ export const Etapes = () => {
           </div>
 
           <img
-            className="mx-[30px] opacity-20 max-w-[10px]"
+            className="mx-[30px] opacity-20 max-w-[10px] rotate-90 xl:rotate-0"
             src="../../../public/assets/icons/right-chevron.svg"
             alt=""
           />
@@ -70,7 +70,7 @@ export const Etapes = () => {
           </div>
 
           <img
-            className="mx-[30px] opacity-20 max-w-[10px]"
+            className="mx-[30px] opacity-20 max-w-[10px] rotate-90 xl:rotate-0"
             src="../../../public/assets/icons/right-chevron.svg"
             alt=""
           />

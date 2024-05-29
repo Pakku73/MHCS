@@ -7,8 +7,8 @@ export const Confiance = () => {
             Ils nous font confiance
         </h2>
 
-        <div className="flex max-w-[1280px] max-h-[50px]">
-          <div className="flex items-center justify-center max-h[100px] gap-20">
+        <div className="flex my-20 max-h-[5000px] xl:max-w-[1280px]">
+          <div className="flex flex-col items-center justify-center max-h[100px] gap-20 xl:flex-row">
             <img src="../../../public/assets/images/companies/hyatt.png" alt="" />
             <img src="../../../public/assets/images/companies/marriott.png" alt="" />
             <img src="../../../public/assets/images/companies/inwood.png" alt="" />

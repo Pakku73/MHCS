@@ -1,14 +1,14 @@
 export const Footer = () => {
   return (
     <>
-    <section className="flex items-center justify-around gap-16 m-auto py-[50px]">
+    <section className="flex flex-col items-center justify-around gap-16 m-auto py-[50px] xl:flex-row">
 
       <div className="flex flex-col gap-20">
         <img className="max-w-[150px]" src="../../../public/assets/images/logo.png" alt="" />
         <p><b>© 2024 MHCS - Maintenance Hôtelière</b></p>
       </div>
 
-      <div className="flex gap-60">
+      <div className="flex flex-col gap-10 xl:flex-row">
         <div className="gap-2">
           <h4><b>MHCS & VOUS</b></h4>
           <ul className="gap-5">

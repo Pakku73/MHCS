@@ -4,15 +4,15 @@ export const Accompagnement = () => {
       <section className="flex flex-col bg-[#fffcf8] max-w-screen-2xl mx-auto mt-[100px]">
       {/* p-[10vh] pr-[20vh] pl-[20vh] */}
 
-        <div className="flex flex-col bg-[#ffffff] shadow-md p-10 px-[100px] rounded-[6px]">
-            <h2 className="flex flex-col font-ChangeOne text-[500] text-[30px] m-auto text-center w-[600px]">
+        <div className="flex flex-col justufy-center items-center gap-6 bg-[#ffffff] shadow-md p-10 px-[100px] rounded-[6px]">
+            <h2 className="flex flex-col font-ChangeOne text-[500]  text-sm m-auto text-center w-60 xl:w-[600px] xl:text-[30px] xl:leading-10">
                 Un accompagnement dédié, pour des travaux en toute
-                <span className="font-Neonderthaw text-[50px]">serenite</span>
+                <span className="font-Neonderthaw text-sm xl:text-[50px]">serenite</span>
             </h2>
-            <div className="flex gap-36">
+            <div className="flex flex-col gap-36 md:flex-col md:gap-14 xl:flex-row">
                 <img className="rounded-[6px]" src="../../../public/assets/images/support-visual.jpg" alt="" />
 
-                <div className="flex flex-col text-[#000000] justify-center">
+                <div className="flex flex-col text-[#000000] justify-center items-center md:items-center md:justify-center xl:items-start">
                     <h2 className="font-ChangeOne text-[20px]">Pourquoi choisir MHCS ?</h2>
                     <br/>
                     <p>

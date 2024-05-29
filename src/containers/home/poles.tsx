@@ -8,7 +8,7 @@ export const Poles = () => {
             <span className="font-Neonderthaw">pôles</span>
         </h2>
 
-        <div className="flex">
+        <div className="flex flex-col justify-center items-center gap-10 md:flex-row">
             <div className="flex max-w-screen-2xl">
                 <div className="flex flex-col items-center max-w-md gap-4">
                     <img className="max-w-40" src="../../../public/assets/icons/travaux.png" alt="" />
