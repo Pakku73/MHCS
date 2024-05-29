@@ -12,7 +12,7 @@ export const Dynamique = () => {
 
   return (
     <Section>
-      <div className="flex gap-6">
+      <div className="flex flex-col gap-6 xl:flex-row">
         <div className="flex flex-col gap-4 max-w-3xl">
           {DYNAMIC_PRESTATIONS.map((prestation, index) => (
             <PrestationItem
