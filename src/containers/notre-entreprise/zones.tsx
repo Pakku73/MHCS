@@ -7,13 +7,13 @@ export const Zones = () => {
         <div className="flex flex-col justify-center items-center p-20">
           <h2 className="uppercase font-ChangeOne text-4xl">NOS ZONES</h2>
           <h3 className="font-Neonderthaw text-4xl mb-14">d'interventions</h3>
-          <div className="flex items-center">
+          <div className="flex flex-col justify-center items-center gap-10 md:flex-row md:gap-0">
             <img
-              className="border-[#c6c6c6] border-[1px] rounded-[6px] max-w-xl"
+              className="border-[#c6c6c6] border-[1px] rounded-[6px] xl:max-w-xl"
               src="../../../public/assets/images/map.jpg"
               alt=""
             />
-            <div className="flex flex-col bg-[#f2ead5] shadow-md p-14 gap-5 max-w-4xl max-h-96 rounded-[6px] z-10 -translate-x-6">
+            <div className="flex flex-col bg-[#f2ead5] shadow-md p-14 gap-5 max-w-4xl rounded-[6px] z-10 md:-translate-x-6">
               <div className="flex items-center gap-6">
                 <img
                   className="max-w-xl"

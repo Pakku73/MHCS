@@ -8,7 +8,7 @@ export const Poles = () => {
             <span className="font-Neonderthaw">pôles</span>
         </h2>
 
-        <div className="flex flex-col justify-center items-center gap-10 md:flex-row">
+        <div className="flex flex-col justify-center items-center gap-10 md:grid md:grid-cols-2 md:justify-between md:px-10 xl:flex xl:flex-row">
             <div className="flex max-w-screen-2xl">
                 <div className="flex flex-col items-center max-w-md gap-4">
                     <img className="max-w-40" src="../../../public/assets/icons/travaux.png" alt="" />
@@ -37,7 +37,7 @@ export const Poles = () => {
                 </div>
             </div>
 
-            <div className="flex max-w-screen-2xl">
+            <div className="flex max-w-screen-2xl md:translate-x-60 xl:translate-x-0">
                 <div className="flex flex-col items-center max-w-md gap-4">
                     <img className="max-w-40" src="../../../public/assets/icons/maintenance.png" alt="" />
                     <h2 className="uppercase font-ChangeOne text-center">

@@ -3,7 +3,7 @@
 export const Form = () => {
   return (
     <>
-      <section className=" relative flex flex-col items-center justify-center mb-[100px] bg-[url('../../../public/assets/images/contact-hero-banner.jpg')] bg-cover bg-center h-svh">
+      <section className=" relative flex flex-col items-center justify-center mb-[100px] bg-[url('../../../public/assets/images/contact-hero-banner.jpg')] bg-cover bg-center h-svh p-8 gap-4 xl:p-0">
         <div className="flex flex-col items-center justify-center max-w-[600px] mt-60 bg-[#ada796] rounded-[10px] py-2 z-10 xl:max-w-[900px]">
           <div>
             <img
@@ -46,7 +46,7 @@ export const Form = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center bg-white z-20 max-w-[900px] rounded-[10px] py-5 px-6 text-[18px] gap-4">
+        <div className="flex items-center justify-center bg-white z-20 max-w-[900px] rounded-[10px] py-5 px-6 text-[14px] gap-4 xl:text-[18px]">
           <img src="../../../public/assets/icons/contact-popup.svg" alt="" />
           <p>
             Ou contactez-nous directement par téléphone{" "}

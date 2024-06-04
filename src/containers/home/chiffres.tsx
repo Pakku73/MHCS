@@ -6,7 +6,7 @@ export const Chiffres = () => {
           Quelques chiffres clés
         </h2>
 
-        <div className="flex flex-col gap-14 items-center xl:flex-row justify-between">
+        <div className="flex flex-col gap-14 justify-center items-center xl:flex-row xl:justify-between">
           <div className="border-[2px] relative border-[#ada796] p-2 pl-10 rounded-[4px]">
             <p className="bg-[#fffcf8] font-ChangeOne text-[#ada796] text-[20px] absolute -right-1 -top-5">
               +20 ANS

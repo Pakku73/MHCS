@@ -9,7 +9,7 @@ export const HeroBanner = () => {
             <span className="font-ChangeOne uppercase text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)]">
               Votre service de
             </span>
-            <span className="font-Neonderthaw text-3xl text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)] xl:text-[68px]">
+            <span className="font-Neonderthaw text-6xl text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)] xl:text-[68px]">
               maintenance hôtelière
             </span>
             <span className="font-ChangeOne uppercase text-[#f2ead5] [text-shadow:_0_4px_0_rgb(0_0_0_/_14%)]">
@@ -17,8 +17,8 @@ export const HeroBanner = () => {
             </span>
           </h1>
 
-          <div className="flex z-10 justify-center items-center gap-10 font-ChangeOne">
-            <button className="bg-[#f2ead5] text-black p-2 rounded-[2px] text-[14px] hover:bg-[#000000] hover:text-[#f2ead5] transition ease-in-out duration-300  hover:-translate-y-2 shadow-md xl:text-base">
+          <div className="flex flex-col z-10 justify-center items-center gap-4 font-ChangeOne xl:flex-row xl:gap-10">
+            <button className="bg-[#f2ead5] text-black p-2 px-5 rounded-[2px] text-[14px] hover:bg-[#000000] hover:text-[#f2ead5] transition ease-in-out duration-300  hover:-translate-y-2 shadow-md xl:text-base">
               Prendre rendez-vous
             </button>
             <button className="bg-[#ada796] text-white text-[14px] p-2 rounded-[2px] hover:bg-[#ffffff] hover:text-[#ada796] transition ease-in-out duration-300  hover:-translate-y-2 shadow-md xl:text-base">
